@@ -1,0 +1,10 @@
+name: ftr-pos-360-upload-widget-server-infra
+description: Projeto IaC - Pos Graduacao - FTR Full Stack Developer 360
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
