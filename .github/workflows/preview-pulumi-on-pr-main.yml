@@ -44,7 +44,7 @@ jobs:
         uses: pulumi/actions@v6
         with:
           command: preview
-          stack-name: ftr-pos-360-aws-pulumi/dev
+          stack-name: dev
           cloud-url: s3://ftr-pos-fullstack-360-upload-widget-server-pulumi-bucket
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
